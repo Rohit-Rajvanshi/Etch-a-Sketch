@@ -13,15 +13,20 @@
     <div class="heading">
         <h1>Etch a Sketch</h1>
     </div>
-  
-        <input id="grid-size" type="range" min="4" max="32" value="16">
-        <span id="size-value">16</span>
-        <button class="reset">Reset</button>
+    <div class="body">
+        <div class="settings">
         <input id="color" type="color">
+        
         <button class="color-mode" onclick="colormode()">COLOR MODE</button>
         <button class="rainbow" onclick="rainbow()">RAINBOW</button>
+        <button class="reset">Reset</button>
+        </div>
+    <div class="gc">
         <div class="grid" id="grid"></div>
-
+        <input id="grid-size" type="range" min="4" max="32" value="16">
+        <span id="size-value">16</span>
+    </div>
+    </div>    
    
 
 </body>
