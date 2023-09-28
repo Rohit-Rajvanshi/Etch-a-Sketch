@@ -9,17 +9,26 @@
 }
 
 .grid {
-    height: 850px;
-    width: 850px;
+    height: 400px;
+    width: 400px;
     display: flex;
-    flex-wrap: wrap;
+  
+    flex-direction: column;
+    
+    flex-grow: 1;
     box-shadow: 4px 4px 4px 4px black;
 }
+.grid-row{
+    display: flex;
+    height: 175px;
+    width: 175px;
 
+}
 .grid-cell{
     border: 0.1px solid black;
-    height: 25px;
-    width: 25px;
+    aspect-ratio: 1;
+
 }
+
 
 
